@@ -16,7 +16,7 @@ dt_now = datetime.now().strftime("%b %d %Y %H %M")
 img_dir = f"{os.getcwd()}\\{dt_now}"
 
 # Output in command line
-print("\n" * 3, "=" * 78)
+print("\n\n", "=" * 78, sep='')
 print("This is an automated script named BIgDoG (Basic Image Downloader for BMKG site).")
 print("Location: Tangerang.")
 print("There is no way to change the location or site unless the script is modified.")
